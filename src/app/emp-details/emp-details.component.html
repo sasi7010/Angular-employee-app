@@ -1,0 +1,24 @@
+<mat-card style="background-color:rgb(70, 142, 224);color:white;">
+    <h2 class="add">Add Employee Details</h2>
+</mat-card>
+
+<form [formGroup]="EmployeeForm">
+    <div style="margin-top: 3%;">
+        <div>
+            <mat-form-field class="example-full-width" appearance="legacy">
+                <mat-label>Employee Name</mat-label>
+                <input formControlName="name" matInput placeholder="" required />
+            </mat-form-field>
+        </div>
+
+        <div>
+            <mat-form-field class="example-full-width" appearance="legacy">
+                <mat-label>Email Id</mat-label>
+                <input formControlName="email" placeholder="Eg.abc@gmail.com"  matInput required />
+            </mat-form-field>
+        </div>
+    </div>
+    <div align="end">
+        <button mat-raised-button color="primary" mat-dialog-close (click)="save()">Save</button>
+    </div>
+</form>

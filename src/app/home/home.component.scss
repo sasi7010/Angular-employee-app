@@ -1,0 +1,64 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .emp{
+    // font-size: 20px;
+    // font-weight: 600;
+    height: 80px;
+    background-color: aquamarine;
+  }
+
+//   .img{
+//     width: 90px;
+//     height: 80px;
+//     margin-right: 2%;
+//   }
+
+  .history {
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img {
+    width: 90px;
+    height: 80px;
+}
+
+.history .button{
+    float: right;
+}
+
+
+.appoin {
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img {
+    width: 7%;
+    height: 70px;
+}
+
+#add {
+    float: right;
+    margin-top: -5%;
+}
+
+table {
+    width: 100%;
+    margin-top: 1%;
+   
+}
+
+.mat-header-cell {
+    color: white !important;
+    background-color: #2970db;
+}
+
+.edtable{
+    width: 80%;
+    margin-left: 10%;
+}
